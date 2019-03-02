@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans'
+}
+
+/* Utility Class */
+.container{
+    max-width: 110px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.l-heading{
+    font-size: 3rem;
+}
+/* Section */
+#showcase{
+    background: #333 url('../img/city1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+#showcase .showcase-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+color: white;
+padding: 0 2rem;
+
+/* Overlay */
+position: absolute;
+top: 0;
+left: 0;
+right:0;
+bottom: 0;
+background: rgba(0,0,0,0.4)
+
+}
+
+
+/* Expertise */
+
+#expertise{
+   background-color: #333;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items .item{
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.items .item i{
+   background-color: #f4f4f4;
+   padding: 1.2rem;
+   border-radius: 50%;
+}
