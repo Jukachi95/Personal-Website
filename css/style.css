@@ -17,6 +17,38 @@
 .l-heading{
     font-size: 3rem;
 }
+/* Navbar */
+#navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    background-color: #333;
+    color: #f4f4f4;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#navbar h2{
+    padding: 1.7rem;
+    
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a{
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+   border-bottom: 3px solid #f4f4f4;
+}
+
 /* Section */
 #showcase{
     background: #333 url('../img/city1.jpg');
@@ -37,9 +69,9 @@ padding: 0 2rem;
 
 /* Overlay */
 position: absolute;
-top: 0;
+top: 83px;
 left: 0;
-right:0;
+right: 0;
 bottom: 0;
 background: rgba(0,0,0,0.4)
 
